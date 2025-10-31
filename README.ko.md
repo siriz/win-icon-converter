@@ -11,9 +11,9 @@
 
 ## 📸 스크린샷
 
-<p align="center">
-  <img src="screenshots/start_page.png" alt="시작 페이지" height="400">
-  <img src="screenshots/coverted_page.png" alt="변환 완료 페이지" height="400">
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 10px;">
+  <img src="screenshots/start_page.png" alt="시작 페이지" width="45%">
+  <img src="screenshots/coverted_page.png" alt="변환 완료 페이지" width="45%">
 </p>
 
 ## ✨ 특징

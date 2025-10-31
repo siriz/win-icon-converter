@@ -11,9 +11,9 @@
 
 ## 📸 スクリーンショット
 
-<p align="center">
-  <img src="screenshots/start_page.png" alt="スタートページ" height="400">
-  <img src="screenshots/coverted_page.png" alt="変換完了ページ" height="400">
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center; gap: 10px;">
+  <img src="screenshots/start_page.png" alt="スタートページ" width="45%">
+  <img src="screenshots/coverted_page.png" alt="変換完了ページ" width="45%">
 </p>
 
 ## ✨ 特徴
