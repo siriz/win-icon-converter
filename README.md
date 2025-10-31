@@ -12,8 +12,8 @@ Convert images to Windows icon files (.ico) instantly! No installation required 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/start_page.png" alt="Start Page" width="45%">
-  <img src="screenshots/coverted_page.png" alt="Converted Page" width="45%">
+  <img src="screenshots/start_page.png" alt="Start Page" height="400">
+  <img src="screenshots/coverted_page.png" alt="Converted Page" height="400">
 </p>
 
 ## ✨ Features

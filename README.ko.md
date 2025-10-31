@@ -12,8 +12,8 @@
 ## 📸 스크린샷
 
 <p align="center">
-  <img src="screenshots/start_page.png" alt="시작 화면" width="45%">
-  <img src="screenshots/coverted_page.png" alt="변환 완료 화면" width="45%">
+  <img src="screenshots/start_page.png" alt="시작 페이지" height="400">
+  <img src="screenshots/coverted_page.png" alt="변환 완료 페이지" height="400">
 </p>
 
 ## ✨ 특징

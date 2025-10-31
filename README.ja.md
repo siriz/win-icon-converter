@@ -12,8 +12,8 @@
 ## 📸 スクリーンショット
 
 <p align="center">
-  <img src="screenshots/start_page.png" alt="開始画面" width="45%">
-  <img src="screenshots/coverted_page.png" alt="変換完了画面" width="45%">
+  <img src="screenshots/start_page.png" alt="スタートページ" height="400">
+  <img src="screenshots/coverted_page.png" alt="変換完了ページ" height="400">
 </p>
 
 ## ✨ 特徴
