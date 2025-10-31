@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.0",
+  "productName": "Windows Icon Converter",
+  "version": "1.0.0",
+  "identifier": "com.siriz.win-icon-converter",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "bundle": {
+    "active": false,
+    "icon": [
+      "icons/icon.ico"
+    ]
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Windows Icon Converter",
+        "width": 650,
+        "height": 500,
+        "resizable": true,
+        "fullscreen": false,
+        "dragDropEnabled": true
+      }
+    ],
+    "security": {
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["**"]
+      },
+      "csp": null,
+      "capabilities": [
+        {
+          "identifier": "main-capability",
+          "windows": ["main"],
+          "permissions": [
+            "core:default",
+            "dialog:allow-open",
+            "dialog:allow-save",
+            "shell:allow-open"
+          ]
+        }
+      ]
+    }
+  }
+}

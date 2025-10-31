@@ -1,0 +1,27 @@
+[package]
+name = "win-icon-converter"
+version = "1.0.0"
+edition = "2021"
+authors = ["siriz"]
+description = "A portable Windows icon converter"
+license = "MIT"
+repository = "https://github.com/siriz/win-icon-converter"
+
+[dependencies]
+tauri = { version = "2", features = ["protocol-asset"] }
+tauri-plugin-dialog = "2"
+tauri-plugin-shell = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+image = "0.25"
+
+[build-dependencies]
+tauri-build = { version = "2.1", features = [] }
+chrono = "0.4"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

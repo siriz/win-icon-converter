@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Icon Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1 data-i18n="title">🎨 Windows Icon Converter</h1>
+                <span class="version"><span data-i18n="version">Version</span> <span id="version">v1.0.0</span></span>
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ja">JP</button>
+                <button class="lang-btn" data-lang="ko">KR</button>
+            </div>
+        </header>
+
+        <div class="description">
+            <p data-i18n="description1">Convert image files to Windows icon files (.ico).</p>
+            <p data-i18n="description2">Includes 256x256, 128x128, 64x64, 48x48, 32x32, 16x16 sizes.</p>
+        </div>
+
+        <div class="select-file-area">
+            <button class="btn btn-select" id="selectBtn" data-i18n="selectFile">📁 Select Image File</button>
+            <span class="file-hint" data-i18n="selectHint">PNG, JPG, JPEG, BMP, GIF</span>
+        </div>
+
+        <div class="file-info" id="fileInfo" style="display: none;">
+            <p><strong data-i18n="selectedFile">Selected File:</strong> <span id="fileName"></span></p>
+            <p><strong data-i18n="fileSize">File Size:</strong> <span id="fileSize"></span></p>
+            <div class="preview" id="preview"></div>
+        </div>
+
+        <div class="actions">
+            <button class="btn btn-convert" id="convertBtn" disabled data-i18n="convertBtn">🔄 Convert to ICO</button>
+            <button class="btn btn-download" id="downloadBtn" disabled style="display: none;" data-i18n="downloadBtn">💾 Download ICO File</button>
+        </div>
+
+        <div class="status" id="status"></div>
+
+        <div class="preview-container" id="previewContainer" style="display: none;">
+            <h3 data-i18n="conversionComplete">✅ Conversion Complete!</h3>
+            <p data-i18n="generatedSizes">Generated sizes:</p>
+            <div class="icon-previews" id="iconPreviews"></div>
+        </div>
+
+        <footer class="footer">
+            <p>
+                Created by <a href="#" data-url="https://github.com/siriz/win-icon-converter" class="external-link">SIRIZ</a>
+                <span class="separator">•</span>
+                <span class="license">Free to use</span>
+                <span class="separator">•</span>
+                <a href="#" data-url="https://github.com/siriz/win-icon-converter/license" class="external-link">MIT License</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
